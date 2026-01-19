@@ -5,7 +5,6 @@ This project is a simple Java-based HTTP server that serves random motivational 
 ## Features
 - Serves random motivational quotes in JSON format.
 - Uses an external `quotes.txt` file for configurable quotes.
-- Lightweight HTTP server using `com.sun.net.httpserver.HttpServer`.
 - Dockerized for easy deployment.
 
 ## Requirements
@@ -18,8 +17,8 @@ This project is a simple Java-based HTTP server that serves random motivational 
 ### Running Locally
 1. Clone the repository:
    ```sh
-   git clone https://github.com/LondheShubham153/java-quotes-app.git
-   cd java-quotes-app
+   git clone https://github.com/codegeeks98/Docker-java-quotes-app-Image.git
+   cd java-quotes-app-Image
    ```
 2. Ensure `quotes.txt` exists in the project directory and contains quotes (one per line).
 3. Compile and run the application:
@@ -59,10 +58,5 @@ project-root/
 ## Customizing Quotes
 To customize the quotes, edit `quotes.txt` and restart the application. Each quote should be on a new line.
 
-## License
-This project is licensed under the MIT License.
-
-## Author
-[TrainWithShubham](https://github.com/LondheShubham153)
 
 
